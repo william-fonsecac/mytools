@@ -25,11 +25,10 @@ def pi_real(x):
     pi_int = str(PI_INT)
     pi_int = list(pi_int)
     pi_x = []
-    abc = "3."
     for i in range(x):
         pi_x.append(pi_int[i])
     pix2 = "".join(str(element) for element in pi_x ) 
-    pix2 = "3." + pix2
+    pix2 = "3," + pix2
     print(pix2)
    
 
@@ -37,11 +36,10 @@ def e_real(x):
     pi_int = str(E_INT)
     pi_int = list(pi_int)
     pi_x = []
-    abc = "3."
     for i in range(x):
         pi_x.append(pi_int[i])
     pix2 = "".join(str(element) for element in pi_x ) 
-    pix2 = "2." + pix2
+    pix2 = "2," + pix2
     print(pix2)
 
 pi_real(5)
